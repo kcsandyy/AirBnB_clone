@@ -1,0 +1,37 @@
+/* Locations and amenities popover menu */
+.filters .popover {
+  position: absolute;
+  width: 75%;
+  top: 80%;
+  display: none;
+  padding-bottom: 12px;
+}
+
+.locations:hover .popover, .amenities:hover .popover {
+  display: block;
+  background-color: #FAFAFA;
+  border: solid 1px #dddddd;
+  border-radius: 4px;
+} 
+
+.filters .locations, 
+.filters .amenities {
+  position: relative;
+}
+
+ul {
+  color: black;
+  list-style-type: none;
+}
+ul li {
+  text-indent: 12px;
+}
+.amenities .popover {
+  padding-top: 20px;
+}
+.popover h2 {
+  padding: 0;
+  padding-top: 20px;
+  font-size: 16px;
+  margin: 0;
+} 
